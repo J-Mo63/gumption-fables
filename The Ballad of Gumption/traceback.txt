@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/prophandler.rpy", line 36, in script
+    init python:
+  File "game/prophandler.rpy", line 37, in <module>
+    items = [item,item,item,item,item,item,item,item,item,item,item,item,item,item,item,item,item] #Defines the inventory at the beginning of the game
+NameError: name 'item' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/prophandler.rpy", line 36, in script
+    init python:
+  File "/Users/J-Mo/Desktop/renpy-6.99.4-sdk/renpy/ast.py", line 785, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/J-Mo/Desktop/renpy-6.99.4-sdk/renpy/python.py", line 1448, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/prophandler.rpy", line 37, in <module>
+    items = [item,item,item,item,item,item,item,item,item,item,item,item,item,item,item,item,item] #Defines the inventory at the beginning of the game
+NameError: name 'item' is not defined
+
+Darwin-14.4.0-x86_64-i386-64bit
+Ren'Py 6.99.4.467
+The Ballad of Gumption Py 0.0

@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/prophandler.rpy", line 13: invalid syntax
+        if spacing = 1:
+                    ^
+    
+
+Ren'Py Version: Ren'Py 6.99.4.467
