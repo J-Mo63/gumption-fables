@@ -22,5 +22,7 @@ label Epilogue:
         "NEXT TIME, ON GUMPTION:"
         "It's the same characters and the same puzzles you've seen before..."
         "... but on a plane."
+        if DLC == True:
+            jump Chapter2_Terminal #If DLC is present, it will jump to the second chapter after chapter 1 ends.
         "plz buy the DLC"
         jump end #Jumps back the the main menu

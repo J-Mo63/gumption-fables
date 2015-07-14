@@ -54,5 +54,4 @@ init python:
         #items.remove("lamp")#when you want to remove items
         #showitems = False #when you don't want to show the inventory onscreen (cutscenes and the like)
         #showitems = True #when you want to reshow the inventory after the cutscene is over
-        
         #useditems.remove("lamp")

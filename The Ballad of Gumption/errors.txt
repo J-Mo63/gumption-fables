@@ -2,9 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/prophandler.rpy", line 13: invalid syntax
-        if spacing = 1:
-                    ^
-    
+File "game/script.rpy", line 47: expected statement.
+    renpy.transition(trans, layer="master", always=True)
+                                                        ^
 
 Ren'Py Version: Ren'Py 6.99.4.467

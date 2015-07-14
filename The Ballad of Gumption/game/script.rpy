@@ -44,7 +44,7 @@ init python: #Setting variables for the game
     dead = False
     loopcount = 0
 
-#My mainline
+#Start of gameplay
 label start:      
     jump Chapter1_Opening #Continues in chapter 1 opening
     
