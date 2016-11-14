@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 47: expected statement.
+    renpy.transition(trans, layer="master", always=True)
+                                                        ^
+
+Ren'Py Version: Ren'Py 6.99.4.467
